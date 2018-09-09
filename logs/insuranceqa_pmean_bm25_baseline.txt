@@ -1,0 +1,882 @@
+2018-09-09 11:38:26,864 - experiment - INFO - Removing old save folder
+2018-09-09 11:38:26,938 - experiment - INFO - Setting up the data
+2018-09-09 11:38:26,938 - experiment - INFO - Loading 1 train datasets
+2018-09-09 11:40:57,376 - experiment - INFO - Split valid reduced to 885 item from 2000 due to missing ground truth in pool
+2018-09-09 11:41:15,054 - experiment - INFO - Split test reduced to 931 item from 2000 due to missing ground truth in pool
+2018-09-09 11:41:15,091 - experiment - DEBUG - Train dataset questions: train=12889, dev=885, test=[931]
+2018-09-09 11:41:15,096 - experiment - DEBUG - Mean answer count=1.67303638218
+2018-09-09 11:41:15,102 - experiment - DEBUG - Mean poolsize=440.499353961
+2018-09-09 11:41:15,102 - experiment - INFO - Fetching the dataset vocab
+2018-09-09 11:41:17,235 - experiment - INFO - Loading embeddings (vocab size=27007)
+2018-09-09 11:41:57,480 - experiment - INFO - OOV tokens: 5330
+2018-09-09 11:41:57,500 - experiment - INFO - Building the model
+2018-09-09 11:41:59,147 - experiment - INFO - Starting the training process
+2018-09-09 11:42:05,993 - experiment - INFO - Initializing all variables
+2018-09-09 11:42:07,143 - experiment - INFO - Could not restore weights. Path does not exist: checkpoints/insuranceqa_pmean_bm25/model-checkpoint-0
+2018-09-09 11:42:07,143 - experiment - INFO - Running from epoch 1 to epoch 100
+2018-09-09 11:42:07,143 - experiment - INFO - Epoch 1/100
+2018-09-09 11:42:07,143 - experiment - DEBUG - Preparing epoch
+2018-09-09 11:42:11,107 - experiment - DEBUG - Special tensors:
+2018-09-09 11:42:11,226 - experiment - DEBUG - p_0: [1.]
+2018-09-09 11:42:11,227 - experiment - DEBUG - p_1: [1.]
+2018-09-09 11:42:11,227 - experiment - DEBUG - p_2: [1.]
+2018-09-09 11:42:11,227 - experiment - DEBUG - p_3: [1.]
+2018-09-09 11:42:11,227 - experiment - DEBUG - p_4: [1.]
+2018-09-09 11:42:11,228 - experiment - DEBUG - p_5: [1.]
+2018-09-09 11:42:11,228 - experiment - DEBUG - p_6: [1.]
+2018-09-09 11:42:11,228 - experiment - DEBUG - p_7: [1.]
+2018-09-09 11:42:11,228 - experiment - DEBUG - p_8: [1.]
+2018-09-09 11:42:11,229 - experiment - DEBUG - p_9: [1.]
+2018-09-09 11:42:11,229 - experiment - DEBUG - p_10: [1.]
+2018-09-09 11:42:11,229 - experiment - DEBUG - p_11: [1.]
+2018-09-09 11:42:11,229 - experiment - DEBUG - p_12: [1.]
+2018-09-09 11:42:11,229 - experiment - DEBUG - p_13: [1.]
+2018-09-09 11:42:11,230 - experiment - DEBUG - p_14: [1.]
+2018-09-09 11:42:11,230 - experiment - DEBUG - p_15: [1.]
+2018-09-09 11:42:11,230 - experiment - DEBUG - p_16: [1.]
+2018-09-09 11:42:11,230 - experiment - DEBUG - p_17: [1.]
+2018-09-09 11:42:11,231 - experiment - DEBUG - p_18: [1.]
+2018-09-09 11:42:11,231 - experiment - DEBUG - p_19: [1.]
+2018-09-09 11:42:11,231 - experiment - DEBUG - p_20: [1.]
+2018-09-09 11:42:11,231 - experiment - DEBUG - p_21: [1.]
+2018-09-09 11:42:11,231 - experiment - DEBUG - p_22: [1.]
+2018-09-09 11:42:11,232 - experiment - DEBUG - p_23: [1.]
+2018-09-09 11:42:11,232 - experiment - DEBUG - p_24: [1.]
+2018-09-09 11:42:11,232 - experiment - DEBUG - p_25: [1.]
+2018-09-09 11:42:11,232 - experiment - DEBUG - p_26: [1.]
+2018-09-09 11:42:11,232 - experiment - DEBUG - p_27: [1.]
+2018-09-09 11:42:11,233 - experiment - DEBUG - p_28: [1.]
+2018-09-09 11:42:11,233 - experiment - DEBUG - p_29: [1.]
+2018-09-09 11:42:11,233 - experiment - DEBUG - p_30: [1.]
+2018-09-09 11:42:11,233 - experiment - DEBUG - p_31: [1.]
+2018-09-09 11:42:11,234 - experiment - DEBUG - p_32: [1.]
+2018-09-09 11:42:11,234 - experiment - DEBUG - p_33: [1.]
+2018-09-09 11:42:11,234 - experiment - DEBUG - p_34: [1.]
+2018-09-09 11:42:11,234 - experiment - DEBUG - p_35: [1.]
+2018-09-09 11:42:11,234 - experiment - DEBUG - p_36: [1.]
+2018-09-09 11:42:11,235 - experiment - DEBUG - p_37: [1.]
+2018-09-09 11:42:11,235 - experiment - DEBUG - p_38: [1.]
+2018-09-09 11:42:11,235 - experiment - DEBUG - p_39: [1.]
+2018-09-09 11:42:11,235 - experiment - DEBUG - p_40: [1.]
+2018-09-09 11:42:11,236 - experiment - DEBUG - p_41: [1.]
+2018-09-09 11:42:11,236 - experiment - DEBUG - p_42: [1.]
+2018-09-09 11:42:11,236 - experiment - DEBUG - p_43: [1.]
+2018-09-09 11:42:11,236 - experiment - DEBUG - p_44: [1.]
+2018-09-09 11:42:11,236 - experiment - DEBUG - p_45: [1.]
+2018-09-09 11:42:11,237 - experiment - DEBUG - p_46: [1.]
+2018-09-09 11:42:11,237 - experiment - DEBUG - p_47: [1.]
+2018-09-09 11:42:11,237 - experiment - DEBUG - p_48: [1.]
+2018-09-09 11:42:11,237 - experiment - DEBUG - p_49: [1.]
+2018-09-09 11:42:11,237 - experiment - DEBUG - p_50: [1.]
+2018-09-09 11:42:11,238 - experiment - DEBUG - p_51: [1.]
+2018-09-09 11:42:11,239 - experiment - DEBUG - Training
+2018-09-09 11:42:11,239 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 11:50:22,875 - experiment - INFO - train loss=0.681945
+2018-09-09 11:50:22,875 - experiment - INFO - Now calculating validation score
+2018-09-09 11:55:44,635 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 11:55:44,635 - experiment - INFO - Correct answers: 367/885
+2018-09-09 11:55:44,635 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 11:55:44,635 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 11:55:44,635 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 12:00:36,221 - experiment - INFO - Evalauting dataset: test
+2018-09-09 12:00:36,222 - experiment - INFO - Correct answers: 387/931
+2018-09-09 12:00:36,222 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 12:00:36,222 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 12:00:36,222 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 12:00:37,724 - experiment - INFO - Validation score improved from -1.000000 to 0.415682
+2018-09-09 12:00:37,725 - experiment - INFO - Epoch 2/100
+2018-09-09 12:00:37,725 - experiment - DEBUG - Preparing epoch
+2018-09-09 12:00:39,678 - experiment - DEBUG - Special tensors:
+2018-09-09 12:00:39,682 - experiment - DEBUG - p_0: [0.9364164]
+2018-09-09 12:00:39,683 - experiment - DEBUG - p_1: [1.0562159]
+2018-09-09 12:00:39,683 - experiment - DEBUG - p_2: [1.0748882]
+2018-09-09 12:00:39,683 - experiment - DEBUG - p_3: [1.0678099]
+2018-09-09 12:00:39,683 - experiment - DEBUG - p_4: [0.9371062]
+2018-09-09 12:00:39,684 - experiment - DEBUG - p_5: [0.9387724]
+2018-09-09 12:00:39,684 - experiment - DEBUG - p_6: [0.96265996]
+2018-09-09 12:00:39,684 - experiment - DEBUG - p_7: [1.0539286]
+2018-09-09 12:00:39,684 - experiment - DEBUG - p_8: [0.935246]
+2018-09-09 12:00:39,684 - experiment - DEBUG - p_9: [0.9719458]
+2018-09-09 12:00:39,685 - experiment - DEBUG - p_10: [1.0682318]
+2018-09-09 12:00:39,685 - experiment - DEBUG - p_11: [1.0681578]
+2018-09-09 12:00:39,685 - experiment - DEBUG - p_12: [1.0756348]
+2018-09-09 12:00:39,685 - experiment - DEBUG - p_13: [1.0664818]
+2018-09-09 12:00:39,685 - experiment - DEBUG - p_14: [1.0734776]
+2018-09-09 12:00:39,686 - experiment - DEBUG - p_15: [1.069557]
+2018-09-09 12:00:39,686 - experiment - DEBUG - p_16: [1.074222]
+2018-09-09 12:00:39,686 - experiment - DEBUG - p_17: [1.064934]
+2018-09-09 12:00:39,686 - experiment - DEBUG - p_18: [1.0072343]
+2018-09-09 12:00:39,686 - experiment - DEBUG - p_19: [1.0790491]
+2018-09-09 12:00:39,687 - experiment - DEBUG - p_20: [0.9452576]
+2018-09-09 12:00:39,687 - experiment - DEBUG - p_21: [1.0652895]
+2018-09-09 12:00:39,687 - experiment - DEBUG - p_22: [0.9408287]
+2018-09-09 12:00:39,687 - experiment - DEBUG - p_23: [1.0654979]
+2018-09-09 12:00:39,687 - experiment - DEBUG - p_24: [0.9374533]
+2018-09-09 12:00:39,688 - experiment - DEBUG - p_25: [0.9359113]
+2018-09-09 12:00:39,688 - experiment - DEBUG - p_26: [0.94038814]
+2018-09-09 12:00:39,688 - experiment - DEBUG - p_27: [1.0590625]
+2018-09-09 12:00:39,688 - experiment - DEBUG - p_28: [0.93655264]
+2018-09-09 12:00:39,688 - experiment - DEBUG - p_29: [1.0757751]
+2018-09-09 12:00:39,689 - experiment - DEBUG - p_30: [1.0686779]
+2018-09-09 12:00:39,689 - experiment - DEBUG - p_31: [1.0631268]
+2018-09-09 12:00:39,689 - experiment - DEBUG - p_32: [1.0217999]
+2018-09-09 12:00:39,689 - experiment - DEBUG - p_33: [1.0747135]
+2018-09-09 12:00:39,690 - experiment - DEBUG - p_34: [0.93926686]
+2018-09-09 12:00:39,690 - experiment - DEBUG - p_35: [1.0666653]
+2018-09-09 12:00:39,690 - experiment - DEBUG - p_36: [1.067527]
+2018-09-09 12:00:39,690 - experiment - DEBUG - p_37: [0.93684727]
+2018-09-09 12:00:39,690 - experiment - DEBUG - p_38: [0.9384403]
+2018-09-09 12:00:39,691 - experiment - DEBUG - p_39: [0.93615013]
+2018-09-09 12:00:39,691 - experiment - DEBUG - p_40: [1.0671592]
+2018-09-09 12:00:39,691 - experiment - DEBUG - p_41: [0.9450642]
+2018-09-09 12:00:39,691 - experiment - DEBUG - p_42: [1.0672673]
+2018-09-09 12:00:39,691 - experiment - DEBUG - p_43: [1.0654732]
+2018-09-09 12:00:39,692 - experiment - DEBUG - p_44: [0.93572766]
+2018-09-09 12:00:39,692 - experiment - DEBUG - p_45: [0.95770806]
+2018-09-09 12:00:39,692 - experiment - DEBUG - p_46: [1.0707089]
+2018-09-09 12:00:39,692 - experiment - DEBUG - p_47: [1.0656399]
+2018-09-09 12:00:39,692 - experiment - DEBUG - p_48: [1.0682654]
+2018-09-09 12:00:39,693 - experiment - DEBUG - p_49: [1.0658785]
+2018-09-09 12:00:39,693 - experiment - DEBUG - p_50: [1.0672592]
+2018-09-09 12:00:39,693 - experiment - DEBUG - p_51: [1.0659431]
+2018-09-09 12:00:39,694 - experiment - DEBUG - Training
+2018-09-09 12:00:39,694 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 12:08:03,047 - experiment - INFO - train loss=0.641980
+2018-09-09 12:08:03,048 - experiment - INFO - Now calculating validation score
+2018-09-09 12:14:40,911 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 12:14:40,912 - experiment - INFO - Correct answers: 367/885
+2018-09-09 12:14:40,912 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 12:14:40,912 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 12:14:40,912 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 12:20:07,229 - experiment - INFO - Evalauting dataset: test
+2018-09-09 12:20:07,230 - experiment - INFO - Correct answers: 387/931
+2018-09-09 12:20:07,230 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 12:20:07,230 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 12:20:07,230 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 12:20:08,305 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 12:20:08,306 - experiment - INFO - Epoch 3/100
+2018-09-09 12:20:08,306 - experiment - DEBUG - Preparing epoch
+2018-09-09 12:20:10,133 - experiment - DEBUG - Special tensors:
+2018-09-09 12:20:10,143 - experiment - DEBUG - p_0: [0.89309883]
+2018-09-09 12:20:10,143 - experiment - DEBUG - p_1: [1.1148272]
+2018-09-09 12:20:10,144 - experiment - DEBUG - p_2: [1.1333946]
+2018-09-09 12:20:10,144 - experiment - DEBUG - p_3: [1.1200535]
+2018-09-09 12:20:10,144 - experiment - DEBUG - p_4: [0.8944305]
+2018-09-09 12:20:10,144 - experiment - DEBUG - p_5: [0.8982188]
+2018-09-09 12:20:10,144 - experiment - DEBUG - p_6: [1.0161427]
+2018-09-09 12:20:10,145 - experiment - DEBUG - p_7: [1.0981071]
+2018-09-09 12:20:10,145 - experiment - DEBUG - p_8: [0.89016336]
+2018-09-09 12:20:10,145 - experiment - DEBUG - p_9: [1.0426406]
+2018-09-09 12:20:10,145 - experiment - DEBUG - p_10: [1.1230271]
+2018-09-09 12:20:10,146 - experiment - DEBUG - p_11: [1.1258339]
+2018-09-09 12:20:10,146 - experiment - DEBUG - p_12: [1.147256]
+2018-09-09 12:20:10,146 - experiment - DEBUG - p_13: [1.1183681]
+2018-09-09 12:20:10,146 - experiment - DEBUG - p_14: [1.1348859]
+2018-09-09 12:20:10,147 - experiment - DEBUG - p_15: [1.1215737]
+2018-09-09 12:20:10,147 - experiment - DEBUG - p_16: [1.1322969]
+2018-09-09 12:20:10,147 - experiment - DEBUG - p_17: [1.1151848]
+2018-09-09 12:20:10,147 - experiment - DEBUG - p_18: [1.0554364]
+2018-09-09 12:20:10,147 - experiment - DEBUG - p_19: [1.1304817]
+2018-09-09 12:20:10,148 - experiment - DEBUG - p_20: [0.9256422]
+2018-09-09 12:20:10,148 - experiment - DEBUG - p_21: [1.1157824]
+2018-09-09 12:20:10,148 - experiment - DEBUG - p_22: [0.91967094]
+2018-09-09 12:20:10,148 - experiment - DEBUG - p_23: [1.1158593]
+2018-09-09 12:20:10,149 - experiment - DEBUG - p_24: [0.8940799]
+2018-09-09 12:20:10,149 - experiment - DEBUG - p_25: [0.8931007]
+2018-09-09 12:20:10,149 - experiment - DEBUG - p_26: [0.90595376]
+2018-09-09 12:20:10,149 - experiment - DEBUG - p_27: [1.1266199]
+2018-09-09 12:20:10,150 - experiment - DEBUG - p_28: [0.8989034]
+2018-09-09 12:20:10,150 - experiment - DEBUG - p_29: [1.1438546]
+2018-09-09 12:20:10,150 - experiment - DEBUG - p_30: [1.1213752]
+2018-09-09 12:20:10,150 - experiment - DEBUG - p_31: [1.1083057]
+2018-09-09 12:20:10,150 - experiment - DEBUG - p_32: [1.0919937]
+2018-09-09 12:20:10,151 - experiment - DEBUG - p_33: [1.1427307]
+2018-09-09 12:20:10,151 - experiment - DEBUG - p_34: [0.9013843]
+2018-09-09 12:20:10,151 - experiment - DEBUG - p_35: [1.1215852]
+2018-09-09 12:20:10,151 - experiment - DEBUG - p_36: [1.1225536]
+2018-09-09 12:20:10,152 - experiment - DEBUG - p_37: [0.89346284]
+2018-09-09 12:20:10,152 - experiment - DEBUG - p_38: [0.89616776]
+2018-09-09 12:20:10,152 - experiment - DEBUG - p_39: [0.8889104]
+2018-09-09 12:20:10,152 - experiment - DEBUG - p_40: [1.1188169]
+2018-09-09 12:20:10,152 - experiment - DEBUG - p_41: [0.92139226]
+2018-09-09 12:20:10,153 - experiment - DEBUG - p_42: [1.1275539]
+2018-09-09 12:20:10,153 - experiment - DEBUG - p_43: [1.1119947]
+2018-09-09 12:20:10,153 - experiment - DEBUG - p_44: [0.89341325]
+2018-09-09 12:20:10,153 - experiment - DEBUG - p_45: [1.0138029]
+2018-09-09 12:20:10,154 - experiment - DEBUG - p_46: [1.1304166]
+2018-09-09 12:20:10,154 - experiment - DEBUG - p_47: [1.115542]
+2018-09-09 12:20:10,154 - experiment - DEBUG - p_48: [1.119454]
+2018-09-09 12:20:10,154 - experiment - DEBUG - p_49: [1.1141785]
+2018-09-09 12:20:10,154 - experiment - DEBUG - p_50: [1.1199658]
+2018-09-09 12:20:10,155 - experiment - DEBUG - p_51: [1.1168318]
+2018-09-09 12:20:10,156 - experiment - DEBUG - Training
+2018-09-09 12:20:10,156 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 12:27:32,871 - experiment - INFO - train loss=0.603345
+2018-09-09 12:27:32,872 - experiment - INFO - Now calculating validation score
+2018-09-09 12:34:09,271 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 12:34:09,272 - experiment - INFO - Correct answers: 367/885
+2018-09-09 12:34:09,272 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 12:34:09,272 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 12:34:09,272 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 12:39:43,894 - experiment - INFO - Evalauting dataset: test
+2018-09-09 12:39:43,895 - experiment - INFO - Correct answers: 387/931
+2018-09-09 12:39:43,895 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 12:39:43,895 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 12:39:43,895 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 12:39:44,836 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 12:39:44,837 - experiment - INFO - Epoch 4/100
+2018-09-09 12:39:44,837 - experiment - DEBUG - Preparing epoch
+2018-09-09 12:39:46,838 - experiment - DEBUG - Special tensors:
+2018-09-09 12:39:46,855 - experiment - DEBUG - p_0: [0.86691684]
+2018-09-09 12:39:46,857 - experiment - DEBUG - p_1: [1.1314274]
+2018-09-09 12:39:46,857 - experiment - DEBUG - p_2: [1.1653548]
+2018-09-09 12:39:46,858 - experiment - DEBUG - p_3: [1.1444776]
+2018-09-09 12:39:46,858 - experiment - DEBUG - p_4: [0.87583756]
+2018-09-09 12:39:46,859 - experiment - DEBUG - p_5: [0.87121505]
+2018-09-09 12:39:46,859 - experiment - DEBUG - p_6: [1.041799]
+2018-09-09 12:39:46,859 - experiment - DEBUG - p_7: [1.1202968]
+2018-09-09 12:39:46,860 - experiment - DEBUG - p_8: [0.8704359]
+2018-09-09 12:39:46,860 - experiment - DEBUG - p_9: [1.0788816]
+2018-09-09 12:39:46,860 - experiment - DEBUG - p_10: [1.1547146]
+2018-09-09 12:39:46,860 - experiment - DEBUG - p_11: [1.1549972]
+2018-09-09 12:39:46,861 - experiment - DEBUG - p_12: [1.1763822]
+2018-09-09 12:39:46,861 - experiment - DEBUG - p_13: [1.1473465]
+2018-09-09 12:39:46,861 - experiment - DEBUG - p_14: [1.1608113]
+2018-09-09 12:39:46,861 - experiment - DEBUG - p_15: [1.1474651]
+2018-09-09 12:39:46,862 - experiment - DEBUG - p_16: [1.1608405]
+2018-09-09 12:39:46,862 - experiment - DEBUG - p_17: [1.1434972]
+2018-09-09 12:39:46,862 - experiment - DEBUG - p_18: [1.0829258]
+2018-09-09 12:39:46,862 - experiment - DEBUG - p_19: [1.1573789]
+2018-09-09 12:39:46,862 - experiment - DEBUG - p_20: [0.9499426]
+2018-09-09 12:39:46,863 - experiment - DEBUG - p_21: [1.1427444]
+2018-09-09 12:39:46,863 - experiment - DEBUG - p_22: [0.9294109]
+2018-09-09 12:39:46,863 - experiment - DEBUG - p_23: [1.1433003]
+2018-09-09 12:39:46,863 - experiment - DEBUG - p_24: [0.86949515]
+2018-09-09 12:39:46,864 - experiment - DEBUG - p_25: [0.8722374]
+2018-09-09 12:39:46,864 - experiment - DEBUG - p_26: [0.8869397]
+2018-09-09 12:39:46,864 - experiment - DEBUG - p_27: [1.1629183]
+2018-09-09 12:39:46,864 - experiment - DEBUG - p_28: [0.8802473]
+2018-09-09 12:39:46,865 - experiment - DEBUG - p_29: [1.1799664]
+2018-09-09 12:39:46,865 - experiment - DEBUG - p_30: [1.1462559]
+2018-09-09 12:39:46,865 - experiment - DEBUG - p_31: [1.1287378]
+2018-09-09 12:39:46,865 - experiment - DEBUG - p_32: [1.1293437]
+2018-09-09 12:39:46,865 - experiment - DEBUG - p_33: [1.1676859]
+2018-09-09 12:39:46,866 - experiment - DEBUG - p_34: [0.89099616]
+2018-09-09 12:39:46,866 - experiment - DEBUG - p_35: [1.1495355]
+2018-09-09 12:39:46,866 - experiment - DEBUG - p_36: [1.1450989]
+2018-09-09 12:39:46,866 - experiment - DEBUG - p_37: [0.86876523]
+2018-09-09 12:39:46,867 - experiment - DEBUG - p_38: [0.87417835]
+2018-09-09 12:39:46,867 - experiment - DEBUG - p_39: [0.866985]
+2018-09-09 12:39:46,867 - experiment - DEBUG - p_40: [1.1430589]
+2018-09-09 12:39:46,867 - experiment - DEBUG - p_41: [0.91330624]
+2018-09-09 12:39:46,867 - experiment - DEBUG - p_42: [1.1573865]
+2018-09-09 12:39:46,868 - experiment - DEBUG - p_43: [1.1322298]
+2018-09-09 12:39:46,868 - experiment - DEBUG - p_44: [0.87997776]
+2018-09-09 12:39:46,868 - experiment - DEBUG - p_45: [1.054782]
+2018-09-09 12:39:46,868 - experiment - DEBUG - p_46: [1.1613388]
+2018-09-09 12:39:46,869 - experiment - DEBUG - p_47: [1.1444149]
+2018-09-09 12:39:46,869 - experiment - DEBUG - p_48: [1.1455833]
+2018-09-09 12:39:46,869 - experiment - DEBUG - p_49: [1.1373674]
+2018-09-09 12:39:46,869 - experiment - DEBUG - p_50: [1.1469089]
+2018-09-09 12:39:46,869 - experiment - DEBUG - p_51: [1.1432807]
+2018-09-09 12:39:46,871 - experiment - DEBUG - Training
+2018-09-09 12:39:46,872 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 12:47:20,068 - experiment - INFO - train loss=0.573335
+2018-09-09 12:47:20,069 - experiment - INFO - Now calculating validation score
+2018-09-09 12:53:55,353 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 12:53:55,354 - experiment - INFO - Correct answers: 367/885
+2018-09-09 12:53:55,354 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 12:53:55,354 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 12:53:55,354 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 12:59:46,947 - experiment - INFO - Evalauting dataset: test
+2018-09-09 12:59:46,947 - experiment - INFO - Correct answers: 387/931
+2018-09-09 12:59:46,948 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 12:59:46,948 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 12:59:46,948 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 12:59:48,052 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 12:59:48,052 - experiment - INFO - Epoch 5/100
+2018-09-09 12:59:48,052 - experiment - DEBUG - Preparing epoch
+2018-09-09 12:59:49,806 - experiment - DEBUG - Special tensors:
+2018-09-09 12:59:49,818 - experiment - DEBUG - p_0: [0.8525702]
+2018-09-09 12:59:49,819 - experiment - DEBUG - p_1: [1.1327534]
+2018-09-09 12:59:49,819 - experiment - DEBUG - p_2: [1.1829549]
+2018-09-09 12:59:49,820 - experiment - DEBUG - p_3: [1.1538774]
+2018-09-09 12:59:49,820 - experiment - DEBUG - p_4: [0.8666845]
+2018-09-09 12:59:49,821 - experiment - DEBUG - p_5: [0.8589115]
+2018-09-09 12:59:49,821 - experiment - DEBUG - p_6: [1.0560206]
+2018-09-09 12:59:49,822 - experiment - DEBUG - p_7: [1.1265837]
+2018-09-09 12:59:49,822 - experiment - DEBUG - p_8: [0.8608833]
+2018-09-09 12:59:49,822 - experiment - DEBUG - p_9: [1.0926226]
+2018-09-09 12:59:49,823 - experiment - DEBUG - p_10: [1.1720053]
+2018-09-09 12:59:49,823 - experiment - DEBUG - p_11: [1.1628784]
+2018-09-09 12:59:49,824 - experiment - DEBUG - p_12: [1.1936527]
+2018-09-09 12:59:49,824 - experiment - DEBUG - p_13: [1.1622937]
+2018-09-09 12:59:49,825 - experiment - DEBUG - p_14: [1.1775553]
+2018-09-09 12:59:49,825 - experiment - DEBUG - p_15: [1.1624523]
+2018-09-09 12:59:49,826 - experiment - DEBUG - p_16: [1.1779132]
+2018-09-09 12:59:49,826 - experiment - DEBUG - p_17: [1.1562827]
+2018-09-09 12:59:49,826 - experiment - DEBUG - p_18: [1.1077673]
+2018-09-09 12:59:49,827 - experiment - DEBUG - p_19: [1.1760197]
+2018-09-09 12:59:49,827 - experiment - DEBUG - p_20: [0.981245]
+2018-09-09 12:59:49,828 - experiment - DEBUG - p_21: [1.1544081]
+2018-09-09 12:59:49,828 - experiment - DEBUG - p_22: [0.94812495]
+2018-09-09 12:59:49,829 - experiment - DEBUG - p_23: [1.1562113]
+2018-09-09 12:59:49,829 - experiment - DEBUG - p_24: [0.8537645]
+2018-09-09 12:59:49,829 - experiment - DEBUG - p_25: [0.8626249]
+2018-09-09 12:59:49,830 - experiment - DEBUG - p_26: [0.877284]
+2018-09-09 12:59:49,830 - experiment - DEBUG - p_27: [1.1826413]
+2018-09-09 12:59:49,831 - experiment - DEBUG - p_28: [0.87283903]
+2018-09-09 12:59:49,831 - experiment - DEBUG - p_29: [1.1986526]
+2018-09-09 12:59:49,831 - experiment - DEBUG - p_30: [1.1604725]
+2018-09-09 12:59:49,832 - experiment - DEBUG - p_31: [1.1336603]
+2018-09-09 12:59:49,832 - experiment - DEBUG - p_32: [1.1434679]
+2018-09-09 12:59:49,833 - experiment - DEBUG - p_33: [1.1889309]
+2018-09-09 12:59:49,833 - experiment - DEBUG - p_34: [0.89559937]
+2018-09-09 12:59:49,834 - experiment - DEBUG - p_35: [1.16128]
+2018-09-09 12:59:49,834 - experiment - DEBUG - p_36: [1.1564555]
+2018-09-09 12:59:49,834 - experiment - DEBUG - p_37: [0.85819596]
+2018-09-09 12:59:49,835 - experiment - DEBUG - p_38: [0.8637352]
+2018-09-09 12:59:49,835 - experiment - DEBUG - p_39: [0.85958475]
+2018-09-09 12:59:49,836 - experiment - DEBUG - p_40: [1.1558797]
+2018-09-09 12:59:49,836 - experiment - DEBUG - p_41: [0.92001337]
+2018-09-09 12:59:49,836 - experiment - DEBUG - p_42: [1.170796]
+2018-09-09 12:59:49,837 - experiment - DEBUG - p_43: [1.1414161]
+2018-09-09 12:59:49,837 - experiment - DEBUG - p_44: [0.8749018]
+2018-09-09 12:59:49,838 - experiment - DEBUG - p_45: [1.0716425]
+2018-09-09 12:59:49,838 - experiment - DEBUG - p_46: [1.1781638]
+2018-09-09 12:59:49,838 - experiment - DEBUG - p_47: [1.1587094]
+2018-09-09 12:59:49,839 - experiment - DEBUG - p_48: [1.1530651]
+2018-09-09 12:59:49,839 - experiment - DEBUG - p_49: [1.1491811]
+2018-09-09 12:59:49,840 - experiment - DEBUG - p_50: [1.1606704]
+2018-09-09 12:59:49,840 - experiment - DEBUG - p_51: [1.1574366]
+2018-09-09 12:59:49,842 - experiment - DEBUG - Training
+2018-09-09 12:59:49,842 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 13:07:00,531 - experiment - INFO - train loss=0.553493
+2018-09-09 13:07:00,532 - experiment - INFO - Now calculating validation score
+2018-09-09 13:13:35,570 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 13:13:35,570 - experiment - INFO - Correct answers: 367/885
+2018-09-09 13:13:35,570 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 13:13:35,571 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 13:13:35,571 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 13:19:23,061 - experiment - INFO - Evalauting dataset: test
+2018-09-09 13:19:23,061 - experiment - INFO - Correct answers: 387/931
+2018-09-09 13:19:23,061 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 13:19:23,061 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 13:19:23,062 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 13:19:24,096 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 13:19:24,099 - experiment - INFO - Epoch 6/100
+2018-09-09 13:19:24,099 - experiment - DEBUG - Preparing epoch
+2018-09-09 13:19:26,383 - experiment - DEBUG - Special tensors:
+2018-09-09 13:19:26,389 - experiment - DEBUG - p_0: [0.8479211]
+2018-09-09 13:19:26,389 - experiment - DEBUG - p_1: [1.1234148]
+2018-09-09 13:19:26,389 - experiment - DEBUG - p_2: [1.1877213]
+2018-09-09 13:19:26,389 - experiment - DEBUG - p_3: [1.1503584]
+2018-09-09 13:19:26,390 - experiment - DEBUG - p_4: [0.8693779]
+2018-09-09 13:19:26,390 - experiment - DEBUG - p_5: [0.85568476]
+2018-09-09 13:19:26,390 - experiment - DEBUG - p_6: [1.0620812]
+2018-09-09 13:19:26,390 - experiment - DEBUG - p_7: [1.1207758]
+2018-09-09 13:19:26,391 - experiment - DEBUG - p_8: [0.86036617]
+2018-09-09 13:19:26,391 - experiment - DEBUG - p_9: [1.0922652]
+2018-09-09 13:19:26,391 - experiment - DEBUG - p_10: [1.1759322]
+2018-09-09 13:19:26,391 - experiment - DEBUG - p_11: [1.1603329]
+2018-09-09 13:19:26,391 - experiment - DEBUG - p_12: [1.1989985]
+2018-09-09 13:19:26,392 - experiment - DEBUG - p_13: [1.1665663]
+2018-09-09 13:19:26,392 - experiment - DEBUG - p_14: [1.1825593]
+2018-09-09 13:19:26,392 - experiment - DEBUG - p_15: [1.1669602]
+2018-09-09 13:19:26,392 - experiment - DEBUG - p_16: [1.1814572]
+2018-09-09 13:19:26,393 - experiment - DEBUG - p_17: [1.1558397]
+2018-09-09 13:19:26,393 - experiment - DEBUG - p_18: [1.1219544]
+2018-09-09 13:19:26,393 - experiment - DEBUG - p_19: [1.1816639]
+2018-09-09 13:19:26,393 - experiment - DEBUG - p_20: [0.9935685]
+2018-09-09 13:19:26,394 - experiment - DEBUG - p_21: [1.1553919]
+2018-09-09 13:19:26,394 - experiment - DEBUG - p_22: [0.9536907]
+2018-09-09 13:19:26,394 - experiment - DEBUG - p_23: [1.158158]
+2018-09-09 13:19:26,394 - experiment - DEBUG - p_24: [0.8492507]
+2018-09-09 13:19:26,395 - experiment - DEBUG - p_25: [0.86202854]
+2018-09-09 13:19:26,395 - experiment - DEBUG - p_26: [0.8810939]
+2018-09-09 13:19:26,395 - experiment - DEBUG - p_27: [1.1886771]
+2018-09-09 13:19:26,395 - experiment - DEBUG - p_28: [0.87059146]
+2018-09-09 13:19:26,395 - experiment - DEBUG - p_29: [1.2033057]
+2018-09-09 13:19:26,396 - experiment - DEBUG - p_30: [1.1640699]
+2018-09-09 13:19:26,396 - experiment - DEBUG - p_31: [1.1277914]
+2018-09-09 13:19:26,396 - experiment - DEBUG - p_32: [1.1441548]
+2018-09-09 13:19:26,396 - experiment - DEBUG - p_33: [1.1926721]
+2018-09-09 13:19:26,397 - experiment - DEBUG - p_34: [0.91005814]
+2018-09-09 13:19:26,397 - experiment - DEBUG - p_35: [1.1599815]
+2018-09-09 13:19:26,397 - experiment - DEBUG - p_36: [1.1555464]
+2018-09-09 13:19:26,397 - experiment - DEBUG - p_37: [0.8549535]
+2018-09-09 13:19:26,398 - experiment - DEBUG - p_38: [0.86195993]
+2018-09-09 13:19:26,398 - experiment - DEBUG - p_39: [0.86226547]
+2018-09-09 13:19:26,398 - experiment - DEBUG - p_40: [1.1582749]
+2018-09-09 13:19:26,398 - experiment - DEBUG - p_41: [0.93625546]
+2018-09-09 13:19:26,398 - experiment - DEBUG - p_42: [1.1706915]
+2018-09-09 13:19:26,399 - experiment - DEBUG - p_43: [1.1405945]
+2018-09-09 13:19:26,399 - experiment - DEBUG - p_44: [0.8821478]
+2018-09-09 13:19:26,399 - experiment - DEBUG - p_45: [1.0768785]
+2018-09-09 13:19:26,399 - experiment - DEBUG - p_46: [1.1794976]
+2018-09-09 13:19:26,400 - experiment - DEBUG - p_47: [1.1597574]
+2018-09-09 13:19:26,400 - experiment - DEBUG - p_48: [1.1488675]
+2018-09-09 13:19:26,400 - experiment - DEBUG - p_49: [1.1501999]
+2018-09-09 13:19:26,400 - experiment - DEBUG - p_50: [1.1628442]
+2018-09-09 13:19:26,401 - experiment - DEBUG - p_51: [1.1596417]
+2018-09-09 13:19:26,402 - experiment - DEBUG - Training
+2018-09-09 13:19:26,402 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 13:26:55,619 - experiment - INFO - train loss=0.536160
+2018-09-09 13:26:55,620 - experiment - INFO - Now calculating validation score
+2018-09-09 13:34:02,336 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 13:34:02,336 - experiment - INFO - Correct answers: 367/885
+2018-09-09 13:34:02,337 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 13:34:02,337 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 13:34:02,337 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 13:39:17,190 - experiment - INFO - Evalauting dataset: test
+2018-09-09 13:39:17,191 - experiment - INFO - Correct answers: 387/931
+2018-09-09 13:39:17,191 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 13:39:17,191 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 13:39:17,191 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 13:39:18,276 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 13:39:18,279 - experiment - INFO - Epoch 7/100
+2018-09-09 13:39:18,279 - experiment - DEBUG - Preparing epoch
+2018-09-09 13:39:20,128 - experiment - DEBUG - Special tensors:
+2018-09-09 13:39:20,133 - experiment - DEBUG - p_0: [0.8479892]
+2018-09-09 13:39:20,133 - experiment - DEBUG - p_1: [1.1112113]
+2018-09-09 13:39:20,134 - experiment - DEBUG - p_2: [1.1869043]
+2018-09-09 13:39:20,134 - experiment - DEBUG - p_3: [1.1435254]
+2018-09-09 13:39:20,134 - experiment - DEBUG - p_4: [0.8776088]
+2018-09-09 13:39:20,134 - experiment - DEBUG - p_5: [0.8533526]
+2018-09-09 13:39:20,135 - experiment - DEBUG - p_6: [1.0640309]
+2018-09-09 13:39:20,135 - experiment - DEBUG - p_7: [1.1091135]
+2018-09-09 13:39:20,135 - experiment - DEBUG - p_8: [0.86360085]
+2018-09-09 13:39:20,135 - experiment - DEBUG - p_9: [1.088635]
+2018-09-09 13:39:20,135 - experiment - DEBUG - p_10: [1.1739097]
+2018-09-09 13:39:20,136 - experiment - DEBUG - p_11: [1.1560518]
+2018-09-09 13:39:20,136 - experiment - DEBUG - p_12: [1.199966]
+2018-09-09 13:39:20,136 - experiment - DEBUG - p_13: [1.1664239]
+2018-09-09 13:39:20,136 - experiment - DEBUG - p_14: [1.182778]
+2018-09-09 13:39:20,137 - experiment - DEBUG - p_15: [1.1675062]
+2018-09-09 13:39:20,137 - experiment - DEBUG - p_16: [1.1811146]
+2018-09-09 13:39:20,137 - experiment - DEBUG - p_17: [1.1514162]
+2018-09-09 13:39:20,137 - experiment - DEBUG - p_18: [1.1318469]
+2018-09-09 13:39:20,138 - experiment - DEBUG - p_19: [1.1817927]
+2018-09-09 13:39:20,138 - experiment - DEBUG - p_20: [1.0007161]
+2018-09-09 13:39:20,138 - experiment - DEBUG - p_21: [1.1529102]
+2018-09-09 13:39:20,138 - experiment - DEBUG - p_22: [0.959665]
+2018-09-09 13:39:20,138 - experiment - DEBUG - p_23: [1.1562324]
+2018-09-09 13:39:20,139 - experiment - DEBUG - p_24: [0.84933877]
+2018-09-09 13:39:20,139 - experiment - DEBUG - p_25: [0.866676]
+2018-09-09 13:39:20,139 - experiment - DEBUG - p_26: [0.89133155]
+2018-09-09 13:39:20,139 - experiment - DEBUG - p_27: [1.1903534]
+2018-09-09 13:39:20,140 - experiment - DEBUG - p_28: [0.8646705]
+2018-09-09 13:39:20,140 - experiment - DEBUG - p_29: [1.2032355]
+2018-09-09 13:39:20,140 - experiment - DEBUG - p_30: [1.1641471]
+2018-09-09 13:39:20,140 - experiment - DEBUG - p_31: [1.118046]
+2018-09-09 13:39:20,140 - experiment - DEBUG - p_32: [1.1400014]
+2018-09-09 13:39:20,141 - experiment - DEBUG - p_33: [1.1913265]
+2018-09-09 13:39:20,141 - experiment - DEBUG - p_34: [0.9273162]
+2018-09-09 13:39:20,141 - experiment - DEBUG - p_35: [1.1549757]
+2018-09-09 13:39:20,141 - experiment - DEBUG - p_36: [1.1492283]
+2018-09-09 13:39:20,142 - experiment - DEBUG - p_37: [0.8544674]
+2018-09-09 13:39:20,142 - experiment - DEBUG - p_38: [0.8616509]
+2018-09-09 13:39:20,142 - experiment - DEBUG - p_39: [0.86911356]
+2018-09-09 13:39:20,142 - experiment - DEBUG - p_40: [1.1570473]
+2018-09-09 13:39:20,142 - experiment - DEBUG - p_41: [0.9506824]
+2018-09-09 13:39:20,143 - experiment - DEBUG - p_42: [1.1667004]
+2018-09-09 13:39:20,143 - experiment - DEBUG - p_43: [1.1357074]
+2018-09-09 13:39:20,143 - experiment - DEBUG - p_44: [0.8947612]
+2018-09-09 13:39:20,143 - experiment - DEBUG - p_45: [1.0776123]
+2018-09-09 13:39:20,144 - experiment - DEBUG - p_46: [1.1753129]
+2018-09-09 13:39:20,144 - experiment - DEBUG - p_47: [1.1561863]
+2018-09-09 13:39:20,144 - experiment - DEBUG - p_48: [1.1403937]
+2018-09-09 13:39:20,144 - experiment - DEBUG - p_49: [1.1469041]
+2018-09-09 13:39:20,144 - experiment - DEBUG - p_50: [1.1611928]
+2018-09-09 13:39:20,145 - experiment - DEBUG - p_51: [1.157505]
+2018-09-09 13:39:20,146 - experiment - DEBUG - Training
+2018-09-09 13:39:20,146 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 13:46:38,808 - experiment - INFO - train loss=0.526767
+2018-09-09 13:46:38,808 - experiment - INFO - Now calculating validation score
+2018-09-09 13:53:30,109 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 13:53:30,109 - experiment - INFO - Correct answers: 367/885
+2018-09-09 13:53:30,109 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 13:53:30,109 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 13:53:30,110 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 13:59:12,983 - experiment - INFO - Evalauting dataset: test
+2018-09-09 13:59:12,983 - experiment - INFO - Correct answers: 387/931
+2018-09-09 13:59:12,984 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 13:59:12,984 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 13:59:12,984 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 13:59:14,109 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 13:59:14,113 - experiment - INFO - Epoch 8/100
+2018-09-09 13:59:14,113 - experiment - DEBUG - Preparing epoch
+2018-09-09 13:59:16,664 - experiment - DEBUG - Special tensors:
+2018-09-09 13:59:16,677 - experiment - DEBUG - p_0: [0.84888774]
+2018-09-09 13:59:16,677 - experiment - DEBUG - p_1: [1.0979306]
+2018-09-09 13:59:16,677 - experiment - DEBUG - p_2: [1.1838866]
+2018-09-09 13:59:16,678 - experiment - DEBUG - p_3: [1.1341261]
+2018-09-09 13:59:16,678 - experiment - DEBUG - p_4: [0.88860035]
+2018-09-09 13:59:16,678 - experiment - DEBUG - p_5: [0.85695976]
+2018-09-09 13:59:16,678 - experiment - DEBUG - p_6: [1.06119]
+2018-09-09 13:59:16,679 - experiment - DEBUG - p_7: [1.0951767]
+2018-09-09 13:59:16,679 - experiment - DEBUG - p_8: [0.8690973]
+2018-09-09 13:59:16,679 - experiment - DEBUG - p_9: [1.0817829]
+2018-09-09 13:59:16,679 - experiment - DEBUG - p_10: [1.1702836]
+2018-09-09 13:59:16,680 - experiment - DEBUG - p_11: [1.1480695]
+2018-09-09 13:59:16,680 - experiment - DEBUG - p_12: [1.1976926]
+2018-09-09 13:59:16,680 - experiment - DEBUG - p_13: [1.1649183]
+2018-09-09 13:59:16,681 - experiment - DEBUG - p_14: [1.1823208]
+2018-09-09 13:59:16,681 - experiment - DEBUG - p_15: [1.1636902]
+2018-09-09 13:59:16,681 - experiment - DEBUG - p_16: [1.1813588]
+2018-09-09 13:59:16,681 - experiment - DEBUG - p_17: [1.1447052]
+2018-09-09 13:59:16,682 - experiment - DEBUG - p_18: [1.1430844]
+2018-09-09 13:59:16,682 - experiment - DEBUG - p_19: [1.1767548]
+2018-09-09 13:59:16,682 - experiment - DEBUG - p_20: [0.99963003]
+2018-09-09 13:59:16,682 - experiment - DEBUG - p_21: [1.1482948]
+2018-09-09 13:59:16,683 - experiment - DEBUG - p_22: [0.9678984]
+2018-09-09 13:59:16,683 - experiment - DEBUG - p_23: [1.1527789]
+2018-09-09 13:59:16,683 - experiment - DEBUG - p_24: [0.8540544]
+2018-09-09 13:59:16,683 - experiment - DEBUG - p_25: [0.8738398]
+2018-09-09 13:59:16,684 - experiment - DEBUG - p_26: [0.8991147]
+2018-09-09 13:59:16,684 - experiment - DEBUG - p_27: [1.1888336]
+2018-09-09 13:59:16,684 - experiment - DEBUG - p_28: [0.84916747]
+2018-09-09 13:59:16,684 - experiment - DEBUG - p_29: [1.1981236]
+2018-09-09 13:59:16,685 - experiment - DEBUG - p_30: [1.1604342]
+2018-09-09 13:59:16,685 - experiment - DEBUG - p_31: [1.1037035]
+2018-09-09 13:59:16,685 - experiment - DEBUG - p_32: [1.1331178]
+2018-09-09 13:59:16,685 - experiment - DEBUG - p_33: [1.1824678]
+2018-09-09 13:59:16,686 - experiment - DEBUG - p_34: [0.9454081]
+2018-09-09 13:59:16,686 - experiment - DEBUG - p_35: [1.1479077]
+2018-09-09 13:59:16,686 - experiment - DEBUG - p_36: [1.1403279]
+2018-09-09 13:59:16,687 - experiment - DEBUG - p_37: [0.8580204]
+2018-09-09 13:59:16,687 - experiment - DEBUG - p_38: [0.86670244]
+2018-09-09 13:59:16,687 - experiment - DEBUG - p_39: [0.87489355]
+2018-09-09 13:59:16,687 - experiment - DEBUG - p_40: [1.1544783]
+2018-09-09 13:59:16,688 - experiment - DEBUG - p_41: [0.95465827]
+2018-09-09 13:59:16,688 - experiment - DEBUG - p_42: [1.1594607]
+2018-09-09 13:59:16,688 - experiment - DEBUG - p_43: [1.1297294]
+2018-09-09 13:59:16,688 - experiment - DEBUG - p_44: [0.91279227]
+2018-09-09 13:59:16,689 - experiment - DEBUG - p_45: [1.0754757]
+2018-09-09 13:59:16,689 - experiment - DEBUG - p_46: [1.1708851]
+2018-09-09 13:59:16,689 - experiment - DEBUG - p_47: [1.150008]
+2018-09-09 13:59:16,689 - experiment - DEBUG - p_48: [1.1287985]
+2018-09-09 13:59:16,690 - experiment - DEBUG - p_49: [1.1411748]
+2018-09-09 13:59:16,690 - experiment - DEBUG - p_50: [1.1578652]
+2018-09-09 13:59:16,690 - experiment - DEBUG - p_51: [1.1533079]
+2018-09-09 13:59:16,692 - experiment - DEBUG - Training
+2018-09-09 13:59:16,692 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 14:06:25,886 - experiment - INFO - train loss=0.518548
+2018-09-09 14:06:25,887 - experiment - INFO - Now calculating validation score
+2018-09-09 14:13:44,488 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 14:13:44,488 - experiment - INFO - Correct answers: 367/885
+2018-09-09 14:13:44,488 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 14:13:44,488 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 14:13:44,488 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 14:19:53,727 - experiment - INFO - Evalauting dataset: test
+2018-09-09 14:19:53,727 - experiment - INFO - Correct answers: 387/931
+2018-09-09 14:19:53,727 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 14:19:53,727 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 14:19:53,728 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 14:19:54,856 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 14:19:54,859 - experiment - INFO - Epoch 9/100
+2018-09-09 14:19:54,859 - experiment - DEBUG - Preparing epoch
+2018-09-09 14:19:56,629 - experiment - DEBUG - Special tensors:
+2018-09-09 14:19:56,635 - experiment - DEBUG - p_0: [0.85169137]
+2018-09-09 14:19:56,635 - experiment - DEBUG - p_1: [1.0853546]
+2018-09-09 14:19:56,635 - experiment - DEBUG - p_2: [1.1784589]
+2018-09-09 14:19:56,636 - experiment - DEBUG - p_3: [1.1244298]
+2018-09-09 14:19:56,636 - experiment - DEBUG - p_4: [0.8997509]
+2018-09-09 14:19:56,636 - experiment - DEBUG - p_5: [0.86022705]
+2018-09-09 14:19:56,636 - experiment - DEBUG - p_6: [1.0568651]
+2018-09-09 14:19:56,637 - experiment - DEBUG - p_7: [1.0820681]
+2018-09-09 14:19:56,637 - experiment - DEBUG - p_8: [0.8753943]
+2018-09-09 14:19:56,637 - experiment - DEBUG - p_9: [1.0732675]
+2018-09-09 14:19:56,637 - experiment - DEBUG - p_10: [1.1650428]
+2018-09-09 14:19:56,638 - experiment - DEBUG - p_11: [1.1393005]
+2018-09-09 14:19:56,638 - experiment - DEBUG - p_12: [1.193782]
+2018-09-09 14:19:56,638 - experiment - DEBUG - p_13: [1.1617763]
+2018-09-09 14:19:56,638 - experiment - DEBUG - p_14: [1.1799934]
+2018-09-09 14:19:56,639 - experiment - DEBUG - p_15: [1.1583868]
+2018-09-09 14:19:56,639 - experiment - DEBUG - p_16: [1.1794866]
+2018-09-09 14:19:56,639 - experiment - DEBUG - p_17: [1.1370541]
+2018-09-09 14:19:56,639 - experiment - DEBUG - p_18: [1.1490641]
+2018-09-09 14:19:56,640 - experiment - DEBUG - p_19: [1.1702553]
+2018-09-09 14:19:56,640 - experiment - DEBUG - p_20: [0.9944119]
+2018-09-09 14:19:56,640 - experiment - DEBUG - p_21: [1.1426008]
+2018-09-09 14:19:56,640 - experiment - DEBUG - p_22: [0.97258186]
+2018-09-09 14:19:56,641 - experiment - DEBUG - p_23: [1.1481732]
+2018-09-09 14:19:56,641 - experiment - DEBUG - p_24: [0.85895133]
+2018-09-09 14:19:56,641 - experiment - DEBUG - p_25: [0.8815791]
+2018-09-09 14:19:56,641 - experiment - DEBUG - p_26: [0.9077902]
+2018-09-09 14:19:56,642 - experiment - DEBUG - p_27: [1.18563]
+2018-09-09 14:19:56,642 - experiment - DEBUG - p_28: [0.8328058]
+2018-09-09 14:19:56,642 - experiment - DEBUG - p_29: [1.1916207]
+2018-09-09 14:19:56,642 - experiment - DEBUG - p_30: [1.1553268]
+2018-09-09 14:19:56,643 - experiment - DEBUG - p_31: [1.0900781]
+2018-09-09 14:19:56,643 - experiment - DEBUG - p_32: [1.1253215]
+2018-09-09 14:19:56,643 - experiment - DEBUG - p_33: [1.1736747]
+2018-09-09 14:19:56,643 - experiment - DEBUG - p_34: [0.96225166]
+2018-09-09 14:19:56,644 - experiment - DEBUG - p_35: [1.1398811]
+2018-09-09 14:19:56,644 - experiment - DEBUG - p_36: [1.1303535]
+2018-09-09 14:19:56,644 - experiment - DEBUG - p_37: [0.86270624]
+2018-09-09 14:19:56,644 - experiment - DEBUG - p_38: [0.87287337]
+2018-09-09 14:19:56,645 - experiment - DEBUG - p_39: [0.8810821]
+2018-09-09 14:19:56,645 - experiment - DEBUG - p_40: [1.1504977]
+2018-09-09 14:19:56,645 - experiment - DEBUG - p_41: [0.9541812]
+2018-09-09 14:19:56,645 - experiment - DEBUG - p_42: [1.1514742]
+2018-09-09 14:19:56,646 - experiment - DEBUG - p_43: [1.1229987]
+2018-09-09 14:19:56,646 - experiment - DEBUG - p_44: [0.9310735]
+2018-09-09 14:19:56,646 - experiment - DEBUG - p_45: [1.0712501]
+2018-09-09 14:19:56,646 - experiment - DEBUG - p_46: [1.1646509]
+2018-09-09 14:19:56,647 - experiment - DEBUG - p_47: [1.1425575]
+2018-09-09 14:19:56,647 - experiment - DEBUG - p_48: [1.1169851]
+2018-09-09 14:19:56,647 - experiment - DEBUG - p_49: [1.1345689]
+2018-09-09 14:19:56,647 - experiment - DEBUG - p_50: [1.1531414]
+2018-09-09 14:19:56,647 - experiment - DEBUG - p_51: [1.1480851]
+2018-09-09 14:19:56,649 - experiment - DEBUG - Training
+2018-09-09 14:19:56,649 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 14:26:17,451 - experiment - INFO - train loss=0.509799
+2018-09-09 14:26:17,452 - experiment - INFO - Now calculating validation score
+2018-09-09 14:32:15,317 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 14:32:15,318 - experiment - INFO - Correct answers: 367/885
+2018-09-09 14:32:15,318 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 14:32:15,318 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 14:32:15,318 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 14:37:10,235 - experiment - INFO - Evalauting dataset: test
+2018-09-09 14:37:10,235 - experiment - INFO - Correct answers: 387/931
+2018-09-09 14:37:10,235 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 14:37:10,235 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 14:37:10,235 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 14:37:11,226 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 14:37:11,228 - experiment - INFO - Epoch 10/100
+2018-09-09 14:37:11,228 - experiment - DEBUG - Preparing epoch
+2018-09-09 14:37:12,941 - experiment - DEBUG - Special tensors:
+2018-09-09 14:37:12,947 - experiment - DEBUG - p_0: [0.85819477]
+2018-09-09 14:37:12,947 - experiment - DEBUG - p_1: [1.0672201]
+2018-09-09 14:37:12,948 - experiment - DEBUG - p_2: [1.1680338]
+2018-09-09 14:37:12,948 - experiment - DEBUG - p_3: [1.1093634]
+2018-09-09 14:37:12,948 - experiment - DEBUG - p_4: [0.91601855]
+2018-09-09 14:37:12,948 - experiment - DEBUG - p_5: [0.86660355]
+2018-09-09 14:37:12,949 - experiment - DEBUG - p_6: [1.0471205]
+2018-09-09 14:37:12,949 - experiment - DEBUG - p_7: [1.0638003]
+2018-09-09 14:37:12,949 - experiment - DEBUG - p_8: [0.8861935]
+2018-09-09 14:37:12,949 - experiment - DEBUG - p_9: [1.0598317]
+2018-09-09 14:37:12,950 - experiment - DEBUG - p_10: [1.1550946]
+2018-09-09 14:37:12,950 - experiment - DEBUG - p_11: [1.1253719]
+2018-09-09 14:37:12,950 - experiment - DEBUG - p_12: [1.1850911]
+2018-09-09 14:37:12,950 - experiment - DEBUG - p_13: [1.154145]
+2018-09-09 14:37:12,950 - experiment - DEBUG - p_14: [1.1729422]
+2018-09-09 14:37:12,951 - experiment - DEBUG - p_15: [1.1483746]
+2018-09-09 14:37:12,951 - experiment - DEBUG - p_16: [1.1731801]
+2018-09-09 14:37:12,951 - experiment - DEBUG - p_17: [1.1242872]
+2018-09-09 14:37:12,951 - experiment - DEBUG - p_18: [1.1523664]
+2018-09-09 14:37:12,952 - experiment - DEBUG - p_19: [1.1589195]
+2018-09-09 14:37:12,952 - experiment - DEBUG - p_20: [0.98430777]
+2018-09-09 14:37:12,952 - experiment - DEBUG - p_21: [1.1320194]
+2018-09-09 14:37:12,952 - experiment - DEBUG - p_22: [0.9757968]
+2018-09-09 14:37:12,952 - experiment - DEBUG - p_23: [1.1389319]
+2018-09-09 14:37:12,953 - experiment - DEBUG - p_24: [0.8678804]
+2018-09-09 14:37:12,953 - experiment - DEBUG - p_25: [0.89312345]
+2018-09-09 14:37:12,953 - experiment - DEBUG - p_26: [0.9203597]
+2018-09-09 14:37:12,953 - experiment - DEBUG - p_27: [1.178297]
+2018-09-09 14:37:12,954 - experiment - DEBUG - p_28: [0.80978185]
+2018-09-09 14:37:12,954 - experiment - DEBUG - p_29: [1.1806248]
+2018-09-09 14:37:12,954 - experiment - DEBUG - p_30: [1.1452616]
+2018-09-09 14:37:12,954 - experiment - DEBUG - p_31: [1.0711778]
+2018-09-09 14:37:12,954 - experiment - DEBUG - p_32: [1.1124663]
+2018-09-09 14:37:12,955 - experiment - DEBUG - p_33: [1.1603893]
+2018-09-09 14:37:12,955 - experiment - DEBUG - p_34: [0.9827939]
+2018-09-09 14:37:12,955 - experiment - DEBUG - p_35: [1.1269256]
+2018-09-09 14:37:12,955 - experiment - DEBUG - p_36: [1.1153322]
+2018-09-09 14:37:12,956 - experiment - DEBUG - p_37: [0.8711473]
+2018-09-09 14:37:12,956 - experiment - DEBUG - p_38: [0.8835954]
+2018-09-09 14:37:12,956 - experiment - DEBUG - p_39: [0.89173865]
+2018-09-09 14:37:12,956 - experiment - DEBUG - p_40: [1.1416641]
+2018-09-09 14:37:12,956 - experiment - DEBUG - p_41: [0.94958067]
+2018-09-09 14:37:12,957 - experiment - DEBUG - p_42: [1.138386]
+2018-09-09 14:37:12,957 - experiment - DEBUG - p_43: [1.1111177]
+2018-09-09 14:37:12,957 - experiment - DEBUG - p_44: [0.95402575]
+2018-09-09 14:37:12,957 - experiment - DEBUG - p_45: [1.0626352]
+2018-09-09 14:37:12,958 - experiment - DEBUG - p_46: [1.1543202]
+2018-09-09 14:37:12,958 - experiment - DEBUG - p_47: [1.1301666]
+2018-09-09 14:37:12,958 - experiment - DEBUG - p_48: [1.0998089]
+2018-09-09 14:37:12,958 - experiment - DEBUG - p_49: [1.1230619]
+2018-09-09 14:37:12,958 - experiment - DEBUG - p_50: [1.1435201]
+2018-09-09 14:37:12,959 - experiment - DEBUG - p_51: [1.1379766]
+2018-09-09 14:37:12,960 - experiment - DEBUG - Training
+2018-09-09 14:37:12,960 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 14:43:38,885 - experiment - INFO - train loss=0.504311
+2018-09-09 14:43:38,886 - experiment - INFO - Now calculating validation score
+2018-09-09 14:50:08,194 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 14:50:08,194 - experiment - INFO - Correct answers: 367/885
+2018-09-09 14:50:08,194 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 14:50:08,195 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 14:50:08,195 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 14:54:57,691 - experiment - INFO - Evalauting dataset: test
+2018-09-09 14:54:57,691 - experiment - INFO - Correct answers: 387/931
+2018-09-09 14:54:57,691 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 14:54:57,691 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 14:54:57,691 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 14:54:58,839 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 14:54:58,841 - experiment - INFO - Epoch 11/100
+2018-09-09 14:54:58,842 - experiment - DEBUG - Preparing epoch
+2018-09-09 14:55:00,505 - experiment - DEBUG - Special tensors:
+2018-09-09 14:55:00,512 - experiment - DEBUG - p_0: [0.86050165]
+2018-09-09 14:55:00,513 - experiment - DEBUG - p_1: [1.0541835]
+2018-09-09 14:55:00,513 - experiment - DEBUG - p_2: [1.1632953]
+2018-09-09 14:55:00,513 - experiment - DEBUG - p_3: [1.0990477]
+2018-09-09 14:55:00,513 - experiment - DEBUG - p_4: [0.9277158]
+2018-09-09 14:55:00,514 - experiment - DEBUG - p_5: [0.8706171]
+2018-09-09 14:55:00,514 - experiment - DEBUG - p_6: [1.0423106]
+2018-09-09 14:55:00,514 - experiment - DEBUG - p_7: [1.0499415]
+2018-09-09 14:55:00,514 - experiment - DEBUG - p_8: [0.8926658]
+2018-09-09 14:55:00,515 - experiment - DEBUG - p_9: [1.0525256]
+2018-09-09 14:55:00,515 - experiment - DEBUG - p_10: [1.1502097]
+2018-09-09 14:55:00,515 - experiment - DEBUG - p_11: [1.1165589]
+2018-09-09 14:55:00,515 - experiment - DEBUG - p_12: [1.1814907]
+2018-09-09 14:55:00,516 - experiment - DEBUG - p_13: [1.1515881]
+2018-09-09 14:55:00,516 - experiment - DEBUG - p_14: [1.1714704]
+2018-09-09 14:55:00,516 - experiment - DEBUG - p_15: [1.1436287]
+2018-09-09 14:55:00,516 - experiment - DEBUG - p_16: [1.1722636]
+2018-09-09 14:55:00,516 - experiment - DEBUG - p_17: [1.116359]
+2018-09-09 14:55:00,517 - experiment - DEBUG - p_18: [1.1606566]
+2018-09-09 14:55:00,517 - experiment - DEBUG - p_19: [1.1525162]
+2018-09-09 14:55:00,517 - experiment - DEBUG - p_20: [0.9792705]
+2018-09-09 14:55:00,517 - experiment - DEBUG - p_21: [1.126375]
+2018-09-09 14:55:00,518 - experiment - DEBUG - p_22: [0.9829212]
+2018-09-09 14:55:00,518 - experiment - DEBUG - p_23: [1.1346556]
+2018-09-09 14:55:00,518 - experiment - DEBUG - p_24: [0.87353885]
+2018-09-09 14:55:00,518 - experiment - DEBUG - p_25: [0.9011886]
+2018-09-09 14:55:00,519 - experiment - DEBUG - p_26: [0.9318528]
+2018-09-09 14:55:00,519 - experiment - DEBUG - p_27: [1.1756052]
+2018-09-09 14:55:00,519 - experiment - DEBUG - p_28: [0.78838605]
+2018-09-09 14:55:00,519 - experiment - DEBUG - p_29: [1.1741793]
+2018-09-09 14:55:00,519 - experiment - DEBUG - p_30: [1.1403652]
+2018-09-09 14:55:00,520 - experiment - DEBUG - p_31: [1.0566031]
+2018-09-09 14:55:00,520 - experiment - DEBUG - p_32: [1.1047804]
+2018-09-09 14:55:00,520 - experiment - DEBUG - p_33: [1.1515001]
+2018-09-09 14:55:00,520 - experiment - DEBUG - p_34: [1.0021503]
+2018-09-09 14:55:00,521 - experiment - DEBUG - p_35: [1.1191503]
+2018-09-09 14:55:00,521 - experiment - DEBUG - p_36: [1.1058317]
+2018-09-09 14:55:00,521 - experiment - DEBUG - p_37: [0.8749813]
+2018-09-09 14:55:00,521 - experiment - DEBUG - p_38: [0.8897438]
+2018-09-09 14:55:00,521 - experiment - DEBUG - p_39: [0.8975817]
+2018-09-09 14:55:00,522 - experiment - DEBUG - p_40: [1.1380756]
+2018-09-09 14:55:00,522 - experiment - DEBUG - p_41: [0.9487857]
+2018-09-09 14:55:00,522 - experiment - DEBUG - p_42: [1.1305099]
+2018-09-09 14:55:00,522 - experiment - DEBUG - p_43: [1.1044527]
+2018-09-09 14:55:00,523 - experiment - DEBUG - p_44: [0.9746503]
+2018-09-09 14:55:00,523 - experiment - DEBUG - p_45: [1.0593278]
+2018-09-09 14:55:00,523 - experiment - DEBUG - p_46: [1.1493632]
+2018-09-09 14:55:00,523 - experiment - DEBUG - p_47: [1.1227943]
+2018-09-09 14:55:00,523 - experiment - DEBUG - p_48: [1.0874825]
+2018-09-09 14:55:00,524 - experiment - DEBUG - p_49: [1.11649]
+2018-09-09 14:55:00,524 - experiment - DEBUG - p_50: [1.1391003]
+2018-09-09 14:55:00,524 - experiment - DEBUG - p_51: [1.1327033]
+2018-09-09 14:55:00,525 - experiment - DEBUG - Training
+2018-09-09 14:55:00,526 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 15:01:23,721 - experiment - INFO - train loss=0.499689
+2018-09-09 15:01:23,721 - experiment - INFO - Now calculating validation score
+2018-09-09 15:07:18,966 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 15:07:18,967 - experiment - INFO - Correct answers: 367/885
+2018-09-09 15:07:18,967 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 15:07:18,967 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 15:07:18,967 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 15:12:15,712 - experiment - INFO - Evalauting dataset: test
+2018-09-09 15:12:15,712 - experiment - INFO - Correct answers: 387/931
+2018-09-09 15:12:15,712 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 15:12:15,713 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 15:12:15,713 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 15:12:16,780 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 15:12:16,783 - experiment - INFO - Epoch 12/100
+2018-09-09 15:12:16,783 - experiment - DEBUG - Preparing epoch
+2018-09-09 15:12:18,645 - experiment - DEBUG - Special tensors:
+2018-09-09 15:12:18,652 - experiment - DEBUG - p_0: [0.86368966]
+2018-09-09 15:12:18,652 - experiment - DEBUG - p_1: [1.0403922]
+2018-09-09 15:12:18,652 - experiment - DEBUG - p_2: [1.1569738]
+2018-09-09 15:12:18,652 - experiment - DEBUG - p_3: [1.0878474]
+2018-09-09 15:12:18,653 - experiment - DEBUG - p_4: [0.93997777]
+2018-09-09 15:12:18,653 - experiment - DEBUG - p_5: [0.87358195]
+2018-09-09 15:12:18,653 - experiment - DEBUG - p_6: [1.0366732]
+2018-09-09 15:12:18,653 - experiment - DEBUG - p_7: [1.0356636]
+2018-09-09 15:12:18,654 - experiment - DEBUG - p_8: [0.89974374]
+2018-09-09 15:12:18,654 - experiment - DEBUG - p_9: [1.0435125]
+2018-09-09 15:12:18,654 - experiment - DEBUG - p_10: [1.1441547]
+2018-09-09 15:12:18,654 - experiment - DEBUG - p_11: [1.1068546]
+2018-09-09 15:12:18,654 - experiment - DEBUG - p_12: [1.1767492]
+2018-09-09 15:12:18,655 - experiment - DEBUG - p_13: [1.1477925]
+2018-09-09 15:12:18,655 - experiment - DEBUG - p_14: [1.1687148]
+2018-09-09 15:12:18,655 - experiment - DEBUG - p_15: [1.1375853]
+2018-09-09 15:12:18,655 - experiment - DEBUG - p_16: [1.1699399]
+2018-09-09 15:12:18,656 - experiment - DEBUG - p_17: [1.1075553]
+2018-09-09 15:12:18,656 - experiment - DEBUG - p_18: [1.1668113]
+2018-09-09 15:12:18,656 - experiment - DEBUG - p_19: [1.1449558]
+2018-09-09 15:12:18,656 - experiment - DEBUG - p_20: [0.97261083]
+2018-09-09 15:12:18,657 - experiment - DEBUG - p_21: [1.1198031]
+2018-09-09 15:12:18,657 - experiment - DEBUG - p_22: [0.9885555]
+2018-09-09 15:12:18,657 - experiment - DEBUG - p_23: [1.129389]
+2018-09-09 15:12:18,657 - experiment - DEBUG - p_24: [0.8789783]
+2018-09-09 15:12:18,657 - experiment - DEBUG - p_25: [0.90925217]
+2018-09-09 15:12:18,658 - experiment - DEBUG - p_26: [0.94338703]
+2018-09-09 15:12:18,658 - experiment - DEBUG - p_27: [1.1721096]
+2018-09-09 15:12:18,658 - experiment - DEBUG - p_28: [0.76734215]
+2018-09-09 15:12:18,658 - experiment - DEBUG - p_29: [1.1668565]
+2018-09-09 15:12:18,659 - experiment - DEBUG - p_30: [1.1343107]
+2018-09-09 15:12:18,659 - experiment - DEBUG - p_31: [1.0414323]
+2018-09-09 15:12:18,659 - experiment - DEBUG - p_32: [1.0962046]
+2018-09-09 15:12:18,659 - experiment - DEBUG - p_33: [1.1420681]
+2018-09-09 15:12:18,660 - experiment - DEBUG - p_34: [1.0205867]
+2018-09-09 15:12:18,660 - experiment - DEBUG - p_35: [1.1104591]
+2018-09-09 15:12:18,660 - experiment - DEBUG - p_36: [1.0951623]
+2018-09-09 15:12:18,660 - experiment - DEBUG - p_37: [0.8793928]
+2018-09-09 15:12:18,660 - experiment - DEBUG - p_38: [0.89652556]
+2018-09-09 15:12:18,661 - experiment - DEBUG - p_39: [0.9038644]
+2018-09-09 15:12:18,661 - experiment - DEBUG - p_40: [1.133368]
+2018-09-09 15:12:18,661 - experiment - DEBUG - p_41: [0.946542]
+2018-09-09 15:12:18,661 - experiment - DEBUG - p_42: [1.1216255]
+2018-09-09 15:12:18,662 - experiment - DEBUG - p_43: [1.0966977]
+2018-09-09 15:12:18,662 - experiment - DEBUG - p_44: [0.9952838]
+2018-09-09 15:12:18,662 - experiment - DEBUG - p_45: [1.0548967]
+2018-09-09 15:12:18,662 - experiment - DEBUG - p_46: [1.1428877]
+2018-09-09 15:12:18,662 - experiment - DEBUG - p_47: [1.1143181]
+2018-09-09 15:12:18,663 - experiment - DEBUG - p_48: [1.0741127]
+2018-09-09 15:12:18,663 - experiment - DEBUG - p_49: [1.1089188]
+2018-09-09 15:12:18,663 - experiment - DEBUG - p_50: [1.1335675]
+2018-09-09 15:12:18,663 - experiment - DEBUG - p_51: [1.1265649]
+2018-09-09 15:12:18,664 - experiment - DEBUG - Training
+2018-09-09 15:12:18,665 - experiment - DEBUG - 853.0 minibatches with size 50
+2018-09-09 15:18:40,490 - experiment - INFO - train loss=0.495814
+2018-09-09 15:18:40,491 - experiment - INFO - Now calculating validation score
+2018-09-09 15:24:33,751 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 15:24:33,751 - experiment - INFO - Correct answers: 367/885
+2018-09-09 15:24:33,751 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 15:24:33,751 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 15:24:33,751 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 15:29:20,867 - experiment - INFO - Evalauting dataset: test
+2018-09-09 15:29:20,868 - experiment - INFO - Correct answers: 387/931
+2018-09-09 15:29:20,868 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 15:29:20,868 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 15:29:20,868 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 15:29:21,845 - experiment - INFO - Validation score did not improve (0.415682; best=0.415682)
+2018-09-09 15:29:21,848 - experiment - INFO - Early stopping (no improvement in the last 11 epochs)
+2018-09-09 15:29:21,848 - experiment - INFO - Restoring the weights of the best epoch 1 with score 0.415682062299
+2018-09-09 15:29:21,981 - experiment - INFO - Now calculating validation score (to verify the restoring success)
+2018-09-09 15:35:10,141 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 15:35:10,141 - experiment - INFO - Correct answers: 367/885
+2018-09-09 15:35:10,142 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 15:35:10,142 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 15:35:10,142 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 15:39:57,539 - experiment - INFO - Evalauting dataset: test
+2018-09-09 15:39:57,540 - experiment - INFO - Correct answers: 387/931
+2018-09-09 15:39:57,540 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 15:39:57,540 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 15:39:57,541 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 15:39:57,616 - experiment - INFO - Score=0.4157
+2018-09-09 15:39:57,617 - experiment - INFO - Evaluating
+2018-09-09 15:45:44,309 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 15:45:44,310 - experiment - INFO - Correct answers: 367/885
+2018-09-09 15:45:44,310 - experiment - INFO - Accuracy: 0.414689265537
+2018-09-09 15:45:44,310 - experiment - INFO - MRR: 0.572204088787
+2018-09-09 15:45:44,310 - experiment - INFO - MAP: 0.552137860602
+2018-09-09 15:50:34,756 - experiment - INFO - Evalauting dataset: test
+2018-09-09 15:50:34,756 - experiment - INFO - Correct answers: 387/931
+2018-09-09 15:50:34,756 - experiment - INFO - Accuracy: 0.415682062299
+2018-09-09 15:50:34,756 - experiment - INFO - MRR: 0.580623625747
+2018-09-09 15:50:34,756 - experiment - INFO - MAP: 0.560582476105
+2018-09-09 15:50:34,838 - experiment - INFO - DONE

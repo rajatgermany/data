@@ -1,0 +1,246 @@
+2018-09-08 20:42:44,786 - experiment - INFO - Removing old save folder
+2018-09-08 20:42:44,786 - experiment - INFO - Setting up the data
+2018-09-08 20:42:44,786 - experiment - INFO - Loading 1 train datasets
+2018-09-08 20:45:11,524 - experiment - INFO - Split valid reduced to 885 item from 2000 due to missing ground truth in pool
+2018-09-08 20:45:30,311 - experiment - INFO - Split test reduced to 931 item from 2000 due to missing ground truth in pool
+2018-09-08 20:45:30,357 - experiment - DEBUG - Train dataset questions: train=12889, dev=885, test=[931]
+2018-09-08 20:45:30,366 - experiment - DEBUG - Mean answer count=1.67303638218
+2018-09-08 20:45:30,374 - experiment - DEBUG - Mean poolsize=440.499353961
+2018-09-08 20:45:30,374 - experiment - INFO - Fetching the dataset vocab
+2018-09-08 20:45:32,804 - experiment - INFO - Loading embeddings (vocab size=27007)
+2018-09-08 20:46:15,667 - experiment - INFO - OOV tokens: 5330
+2018-09-08 20:46:15,693 - experiment - INFO - Building the model
+2018-09-08 20:46:16,222 - experiment - INFO - Starting the training process
+2018-09-08 20:46:16,422 - experiment - INFO - Initializing all variables
+2018-09-08 20:46:17,401 - experiment - INFO - Could not restore weights. Path does not exist: checkpoints/insuranceqaTfidf/model-checkpoint-0
+2018-09-08 20:46:17,402 - experiment - INFO - Running from epoch 1 to epoch 100
+2018-09-08 20:46:17,402 - experiment - INFO - Epoch 1/100
+2018-09-08 20:46:17,402 - experiment - DEBUG - Preparing epoch
+2018-09-08 20:46:22,088 - experiment - DEBUG - Training
+2018-09-08 20:46:22,088 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 20:54:02,728 - experiment - INFO - train loss=0.693759
+2018-09-08 20:54:02,728 - experiment - INFO - Now calculating validation score
+2018-09-08 20:57:07,621 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 20:57:07,621 - experiment - INFO - Correct answers: 278/885
+2018-09-08 20:57:07,621 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 20:57:07,621 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 20:57:07,621 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 20:59:15,537 - experiment - INFO - Evalauting dataset: test
+2018-09-08 20:59:15,537 - experiment - INFO - Correct answers: 314/931
+2018-09-08 20:59:15,537 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 20:59:15,537 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 20:59:15,537 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 20:59:15,930 - experiment - INFO - Validation score improved from -1.000000 to 0.314124
+2018-09-08 20:59:15,931 - experiment - INFO - Epoch 2/100
+2018-09-08 20:59:15,931 - experiment - DEBUG - Preparing epoch
+2018-09-08 20:59:17,596 - experiment - DEBUG - Training
+2018-09-08 20:59:17,596 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 21:06:23,858 - experiment - INFO - train loss=0.688298
+2018-09-08 21:06:23,858 - experiment - INFO - Now calculating validation score
+2018-09-08 21:10:59,391 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 21:10:59,391 - experiment - INFO - Correct answers: 278/885
+2018-09-08 21:10:59,392 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 21:10:59,392 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 21:10:59,392 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 21:13:26,414 - experiment - INFO - Evalauting dataset: test
+2018-09-08 21:13:26,415 - experiment - INFO - Correct answers: 314/931
+2018-09-08 21:13:26,415 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 21:13:26,415 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 21:13:26,415 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 21:13:26,758 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 21:13:26,760 - experiment - INFO - Epoch 3/100
+2018-09-08 21:13:26,760 - experiment - DEBUG - Preparing epoch
+2018-09-08 21:13:28,587 - experiment - DEBUG - Training
+2018-09-08 21:13:28,588 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 21:20:19,017 - experiment - INFO - train loss=0.687041
+2018-09-08 21:20:19,017 - experiment - INFO - Now calculating validation score
+2018-09-08 21:24:27,859 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 21:24:27,859 - experiment - INFO - Correct answers: 278/885
+2018-09-08 21:24:27,859 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 21:24:27,859 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 21:24:27,859 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 21:27:58,306 - experiment - INFO - Evalauting dataset: test
+2018-09-08 21:27:58,307 - experiment - INFO - Correct answers: 314/931
+2018-09-08 21:27:58,307 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 21:27:58,307 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 21:27:58,307 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 21:27:58,646 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 21:27:58,647 - experiment - INFO - Epoch 4/100
+2018-09-08 21:27:58,647 - experiment - DEBUG - Preparing epoch
+2018-09-08 21:28:00,902 - experiment - DEBUG - Training
+2018-09-08 21:28:00,903 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 21:34:55,183 - experiment - INFO - train loss=0.686304
+2018-09-08 21:34:55,183 - experiment - INFO - Now calculating validation score
+2018-09-08 21:38:29,273 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 21:38:29,274 - experiment - INFO - Correct answers: 278/885
+2018-09-08 21:38:29,274 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 21:38:29,274 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 21:38:29,274 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 21:40:35,670 - experiment - INFO - Evalauting dataset: test
+2018-09-08 21:40:35,671 - experiment - INFO - Correct answers: 314/931
+2018-09-08 21:40:35,671 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 21:40:35,671 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 21:40:35,671 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 21:40:36,015 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 21:40:36,016 - experiment - INFO - Epoch 5/100
+2018-09-08 21:40:36,016 - experiment - DEBUG - Preparing epoch
+2018-09-08 21:40:37,848 - experiment - DEBUG - Training
+2018-09-08 21:40:37,849 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 21:48:27,468 - experiment - INFO - train loss=0.685666
+2018-09-08 21:48:27,468 - experiment - INFO - Now calculating validation score
+2018-09-08 21:51:35,655 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 21:51:35,655 - experiment - INFO - Correct answers: 278/885
+2018-09-08 21:51:35,655 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 21:51:35,655 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 21:51:35,655 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 21:53:39,199 - experiment - INFO - Evalauting dataset: test
+2018-09-08 21:53:39,200 - experiment - INFO - Correct answers: 314/931
+2018-09-08 21:53:39,200 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 21:53:39,200 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 21:53:39,200 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 21:53:39,512 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 21:53:39,513 - experiment - INFO - Epoch 6/100
+2018-09-08 21:53:39,513 - experiment - DEBUG - Preparing epoch
+2018-09-08 21:53:41,482 - experiment - DEBUG - Training
+2018-09-08 21:53:41,482 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 22:00:38,174 - experiment - INFO - train loss=0.685299
+2018-09-08 22:00:38,174 - experiment - INFO - Now calculating validation score
+2018-09-08 22:05:01,578 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 22:05:01,579 - experiment - INFO - Correct answers: 278/885
+2018-09-08 22:05:01,579 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 22:05:01,579 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 22:05:01,579 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 22:07:22,122 - experiment - INFO - Evalauting dataset: test
+2018-09-08 22:07:22,123 - experiment - INFO - Correct answers: 314/931
+2018-09-08 22:07:22,123 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 22:07:22,123 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 22:07:22,123 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 22:07:22,476 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 22:07:22,477 - experiment - INFO - Epoch 7/100
+2018-09-08 22:07:22,478 - experiment - DEBUG - Preparing epoch
+2018-09-08 22:07:24,288 - experiment - DEBUG - Training
+2018-09-08 22:07:24,288 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 22:14:19,294 - experiment - INFO - train loss=0.684771
+2018-09-08 22:14:19,294 - experiment - INFO - Now calculating validation score
+2018-09-08 22:17:56,290 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 22:17:56,291 - experiment - INFO - Correct answers: 278/885
+2018-09-08 22:17:56,291 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 22:17:56,291 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 22:17:56,291 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 22:21:25,683 - experiment - INFO - Evalauting dataset: test
+2018-09-08 22:21:25,684 - experiment - INFO - Correct answers: 314/931
+2018-09-08 22:21:25,684 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 22:21:25,684 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 22:21:25,684 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 22:21:26,043 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 22:21:26,046 - experiment - INFO - Epoch 8/100
+2018-09-08 22:21:26,046 - experiment - DEBUG - Preparing epoch
+2018-09-08 22:21:28,199 - experiment - DEBUG - Training
+2018-09-08 22:21:28,199 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 22:28:45,943 - experiment - INFO - train loss=0.684425
+2018-09-08 22:28:45,943 - experiment - INFO - Now calculating validation score
+2018-09-08 22:31:43,624 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 22:31:43,625 - experiment - INFO - Correct answers: 278/885
+2018-09-08 22:31:43,625 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 22:31:43,625 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 22:31:43,625 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 22:33:33,665 - experiment - INFO - Evalauting dataset: test
+2018-09-08 22:33:33,666 - experiment - INFO - Correct answers: 314/931
+2018-09-08 22:33:33,666 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 22:33:33,666 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 22:33:33,666 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 22:33:33,983 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 22:33:33,984 - experiment - INFO - Epoch 9/100
+2018-09-08 22:33:33,984 - experiment - DEBUG - Preparing epoch
+2018-09-08 22:33:35,742 - experiment - DEBUG - Training
+2018-09-08 22:33:35,743 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 22:40:56,269 - experiment - INFO - train loss=0.684043
+2018-09-08 22:40:56,270 - experiment - INFO - Now calculating validation score
+2018-09-08 22:45:08,471 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 22:45:08,472 - experiment - INFO - Correct answers: 278/885
+2018-09-08 22:45:08,472 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 22:45:08,472 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 22:45:08,472 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 22:47:30,932 - experiment - INFO - Evalauting dataset: test
+2018-09-08 22:47:30,933 - experiment - INFO - Correct answers: 314/931
+2018-09-08 22:47:30,933 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 22:47:30,933 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 22:47:30,933 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 22:47:31,301 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 22:47:31,303 - experiment - INFO - Epoch 10/100
+2018-09-08 22:47:31,303 - experiment - DEBUG - Preparing epoch
+2018-09-08 22:47:33,547 - experiment - DEBUG - Training
+2018-09-08 22:47:33,547 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 22:54:33,348 - experiment - INFO - train loss=0.683834
+2018-09-08 22:54:33,348 - experiment - INFO - Now calculating validation score
+2018-09-08 22:59:10,298 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 22:59:10,299 - experiment - INFO - Correct answers: 278/885
+2018-09-08 22:59:10,299 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 22:59:10,299 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 22:59:10,299 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 23:02:42,688 - experiment - INFO - Evalauting dataset: test
+2018-09-08 23:02:42,688 - experiment - INFO - Correct answers: 314/931
+2018-09-08 23:02:42,688 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 23:02:42,689 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 23:02:42,689 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 23:02:42,986 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 23:02:42,988 - experiment - INFO - Epoch 11/100
+2018-09-08 23:02:42,988 - experiment - DEBUG - Preparing epoch
+2018-09-08 23:02:44,731 - experiment - DEBUG - Training
+2018-09-08 23:02:44,731 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 23:09:18,873 - experiment - INFO - train loss=0.683729
+2018-09-08 23:09:18,874 - experiment - INFO - Now calculating validation score
+2018-09-08 23:12:55,526 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 23:12:55,527 - experiment - INFO - Correct answers: 278/885
+2018-09-08 23:12:55,527 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 23:12:55,527 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 23:12:55,527 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 23:15:26,285 - experiment - INFO - Evalauting dataset: test
+2018-09-08 23:15:26,286 - experiment - INFO - Correct answers: 314/931
+2018-09-08 23:15:26,286 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 23:15:26,286 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 23:15:26,286 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 23:15:26,684 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 23:15:26,694 - experiment - INFO - Epoch 12/100
+2018-09-08 23:15:26,694 - experiment - DEBUG - Preparing epoch
+2018-09-08 23:15:28,987 - experiment - DEBUG - Training
+2018-09-08 23:15:28,987 - experiment - DEBUG - 657.0 minibatches with size 65
+2018-09-08 23:23:29,656 - experiment - INFO - train loss=0.683444
+2018-09-08 23:23:29,656 - experiment - INFO - Now calculating validation score
+2018-09-08 23:27:41,514 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 23:27:41,515 - experiment - INFO - Correct answers: 278/885
+2018-09-08 23:27:41,515 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 23:27:41,515 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 23:27:41,515 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 23:30:40,061 - experiment - INFO - Evalauting dataset: test
+2018-09-08 23:30:40,061 - experiment - INFO - Correct answers: 314/931
+2018-09-08 23:30:40,061 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 23:30:40,061 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 23:30:40,061 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 23:30:40,410 - experiment - INFO - Validation score did not improve (0.314124; best=0.314124)
+2018-09-08 23:30:40,411 - experiment - INFO - Early stopping (no improvement in the last 11 epochs)
+2018-09-08 23:30:40,412 - experiment - INFO - Restoring the weights of the best epoch 1 with score 0.314124293785
+2018-09-08 23:30:40,475 - experiment - INFO - Now calculating validation score (to verify the restoring success)
+2018-09-08 23:34:20,079 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 23:34:20,080 - experiment - INFO - Correct answers: 278/885
+2018-09-08 23:34:20,080 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 23:34:20,080 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 23:34:20,080 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 23:38:06,688 - experiment - INFO - Evalauting dataset: test
+2018-09-08 23:38:06,688 - experiment - INFO - Correct answers: 314/931
+2018-09-08 23:38:06,688 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 23:38:06,688 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 23:38:06,689 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 23:38:06,720 - experiment - INFO - Score=0.3141
+2018-09-08 23:38:06,721 - experiment - INFO - Evaluating
+2018-09-08 23:42:33,773 - experiment - INFO - Evalauting dataset: valid
+2018-09-08 23:42:33,774 - experiment - INFO - Correct answers: 278/885
+2018-09-08 23:42:33,774 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-08 23:42:33,774 - experiment - INFO - MRR: 0.488457405445
+2018-09-08 23:42:33,774 - experiment - INFO - MAP: 0.469112880175
+2018-09-08 23:45:11,438 - experiment - INFO - Evalauting dataset: test
+2018-09-08 23:45:11,439 - experiment - INFO - Correct answers: 314/931
+2018-09-08 23:45:11,439 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-08 23:45:11,439 - experiment - INFO - MRR: 0.503549483766
+2018-09-08 23:45:11,439 - experiment - INFO - MAP: 0.483539081462
+2018-09-08 23:45:11,468 - experiment - INFO - DONE

@@ -1,0 +1,41 @@
+2018-09-09 21:20:10,946 - experiment - INFO - Setting up the data
+2018-09-09 21:20:10,946 - experiment - INFO - Loading 1 train datasets
+2018-09-09 21:22:52,282 - experiment - INFO - Split valid reduced to 885 item from 2000 due to missing ground truth in pool
+2018-09-09 21:23:27,922 - experiment - INFO - Split test reduced to 931 item from 2000 due to missing ground truth in pool
+2018-09-09 21:23:27,973 - experiment - DEBUG - Train dataset questions: train=12889, dev=885, test=[931]
+2018-09-09 21:23:27,981 - experiment - DEBUG - Mean answer count=1.67303638218
+2018-09-09 21:23:27,988 - experiment - DEBUG - Mean poolsize=440.499353961
+2018-09-09 21:23:27,988 - experiment - INFO - Fetching the dataset vocab
+2018-09-09 21:23:30,340 - experiment - INFO - Loading embeddings (vocab size=27007)
+2018-09-09 21:24:14,103 - experiment - INFO - OOV tokens: 5330
+2018-09-09 21:24:14,138 - experiment - INFO - Building the model
+2018-09-09 21:24:15,871 - experiment - INFO - Starting the training process
+2018-09-09 21:24:23,197 - experiment - INFO - Initializing all variables
+2018-09-09 21:24:25,253 - experiment - INFO - Loaded the weights of last epoch 12 with score=0.314124293785
+2018-09-09 21:24:25,253 - experiment - INFO - Running from epoch 13 to epoch 100
+2018-09-09 21:24:25,253 - experiment - INFO - Early stopping (no improvement in the last 11 epochs)
+2018-09-09 21:24:25,253 - experiment - INFO - Restoring the weights of the best epoch 1 with score 0.314124293785
+2018-09-09 21:24:25,299 - experiment - INFO - Now calculating validation score (to verify the restoring success)
+2018-09-09 21:28:24,628 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 21:28:24,628 - experiment - INFO - Correct answers: 278/885
+2018-09-09 21:28:24,628 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-09 21:28:24,628 - experiment - INFO - MRR: 0.488457405445
+2018-09-09 21:28:24,629 - experiment - INFO - MAP: 0.469112880175
+2018-09-09 21:31:27,039 - experiment - INFO - Evalauting dataset: test
+2018-09-09 21:31:27,039 - experiment - INFO - Correct answers: 314/931
+2018-09-09 21:31:27,039 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-09 21:31:27,039 - experiment - INFO - MRR: 0.50337046479
+2018-09-09 21:31:27,039 - experiment - INFO - MAP: 0.483360062486
+2018-09-09 21:31:27,067 - experiment - INFO - Score=0.3141
+2018-09-09 21:31:27,068 - experiment - INFO - Evaluating
+2018-09-09 21:35:22,125 - experiment - INFO - Evalauting dataset: valid
+2018-09-09 21:35:22,126 - experiment - INFO - Correct answers: 278/885
+2018-09-09 21:35:22,126 - experiment - INFO - Accuracy: 0.314124293785
+2018-09-09 21:35:22,126 - experiment - INFO - MRR: 0.488457405445
+2018-09-09 21:35:22,126 - experiment - INFO - MAP: 0.469112880175
+2018-09-09 21:38:15,462 - experiment - INFO - Evalauting dataset: test
+2018-09-09 21:38:15,462 - experiment - INFO - Correct answers: 314/931
+2018-09-09 21:38:15,462 - experiment - INFO - Accuracy: 0.337271750806
+2018-09-09 21:38:15,462 - experiment - INFO - MRR: 0.50337046479
+2018-09-09 21:38:15,462 - experiment - INFO - MAP: 0.483360062486
+2018-09-09 21:38:15,487 - experiment - INFO - DONE
